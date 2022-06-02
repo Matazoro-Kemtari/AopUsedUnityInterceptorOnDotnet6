@@ -18,7 +18,7 @@ container.RegisterType<IGreetingService, GreetingService>(
 // コンテナから取り出す
 var service = container.Resolve<IGreetingService>();
 // メソッドの呼び出し
-service.DoSomething("戻り値ない");
+service.DoSomething("DoSomethingメソッド");
 
 public interface IGreetingService
 {
